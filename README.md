@@ -7,225 +7,238 @@ En JavaScript, la clase `Date` se utiliza para trabajar con fechas y horas. Aqu�
 1. **`Date.prototype.constructor`**: Retorna la función que creó el prototipo del objeto.
 
    ```javascript
-   const date = new Date();
-   console.log(date.constructor);
+   const date = new Date()
+   console.log(date.constructor());
    ```
 
 2. **`Date.prototype.getDate()`**: Retorna el día del mes (1-31) para la fecha especificada según la hora local.
 
    ```javascript
-   const date = new Date();
+   const date = new Date()
    console.log(date.getDate());
    ```
 
 3. **`Date.prototype.getDay()`**: Retorna el día de la semana (0-6) para la fecha especificada según la hora local.
 
    ```javascript
-   const date = new Date();
-   console.log(date.getDay);
+   const date = new Date()
+   console.log(date.getDay());
    ```
 
 4. **`Date.prototype.getFullYear()`**: Retorna el año (4 dígitos para fechas con años AD) de la fecha especificada según la hora local.
 
    ```javascript
-   const date = new Date();
-   console.log(date.getFullYear);
+   const date = new Date()
+   console.log(date.getFullYear());
    ```
 
 5. **`Date.prototype.getHours()`**: Retorna la hora (0-23) de la fecha especificada según la hora local.
 
    ```javascript
-   const date = new Date();
-   console.log(date.getHours);
+   const date = new Date()
+   console.log(date.getHours());
    ```
 
 6. **`Date.prototype.getMilliseconds()`**: Retorna los milisegundos (0-999) de la fecha especificada según la hora local.
 
    ```javascript
-   const date = new Date();
-   console.log(date.getMilliseconds);
+   const date = new Date()
+   console.log(date.getMilliseconds());
    ```
 
 7. **`Date.prototype.getMinutes()`**: Retorna los minutos (0-59) de la fecha especificada según la hora local.
 
    ```javascript
-   const date = new Date();
-   console.log(date.getMinutes);
+   const date = new Date()
+   console.log(date.getMinutes());
    ```
 
 8. **`Date.prototype.getMonth()`**: Retorna el mes (0-11) para la fecha especificada según la hora local.
 
    ```javascript
-   const date = new Date();
-   console.log(date.getMonth);
+   const date = new Date()
+   console.log(date.getMonth());
    ```
 
 9. **`Date.prototype.getSeconds()`**: Retorna los segundos (0-59) de la fecha especificada según la hora local.
 
    ```javascript
-   const date = new Date();
-   console.log(date.getSeconds);
+   const date = new Date()
+   console.log(date.getSeconds());
    ```
 
 10. **`Date.prototype.getTime()`**: Retorna el valor numérico correspondiente a la fecha y hora especificadas según la hora universal coordinada (UTC).
 
     ```javascript
-    const date = new Date();
-    console.log(date.getTime);
+    const date = new Date()
+    console.log(date.getTime());
     ```
 
 11. **`Date.prototype.getTimezoneOffset()`**: Retorna la diferencia de minutos entre la hora local y la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.getTimezoneOffset);
+    const date = new Date()
+    console.log(date.getTimezoneOffset());
     ```
 
 12. **`Date.prototype.getUTCDate()`**: Retorna el día del mes (1-31) para la fecha especificada según la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.getUTCDate);
+    const date = new Date()
+    console.log(date.getUTCDate());
     ```
 
 13. **`Date.prototype.getUTCDay()`**: Retorna el día de la semana (0-6) para la fecha especificada según la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.getUTCDay);
+    const date = new Date()
+    console.log(date.getUTCDay());
     ```
 
 14. **`Date.prototype.getUTCFullYear()`**: Retorna el año (4 dígitos para años AD) de la fecha especificada según la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.getUTCFullYear);
+    const date = new Date()
+    console.log(date.getUTCFullYear());
     ```
 
 15. **`Date.prototype.getUTCHours()`**: Retorna la hora (0-23) de la fecha especificada según la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.getUTCHours);
+    const date = new Date()
+    console.log(date.getUTCHours());
     ```
 
 16. **`Date.prototype.getUTCMilliseconds()`**: Retorna los milisegundos (0-999) de la fecha especificada según la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.getUTCMilliseconds);
+    const date = new Date()
+    console.log(date.getUTCMilliseconds());
     ```
 
 17. **`Date.prototype.getUTCMinutes()`**: Retorna los minutos (0-59) de la fecha especificada según la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.getUTCMinutes);
+    const date = new Date()
+    console.log(date.getUTCMinutes());
     ```
 
 18. **`Date.prototype.getUTCMonth()`**: Retorna el mes (0-11) para la fecha especificada según la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.getUTCMonth);
+    const date = new Date()
+    console.log(date.getUTCMonth());
     ```
 
 19. **`Date.prototype.getUTCSeconds()`**: Retorna los segundos (0-59) de la fecha especificada según la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.getUTCSeconds);
+    const date = new Date()
+    console.log(date.getUTCSeconds());
     ```
 
 20. **`Date.prototype.setFullYear()`**: Establece el año para una fecha especificada según la hora local.
 
     ```javascript
-    const date = new Date();
-    console.log(date.setFullYear);
+    const date = new Date('December 05, 2002')
+    date.setFullYear(2022)
+    console.log(date);
     ```
 
 21. **`Date.prototype.setHours()`**: Establece la hora para una fecha especificada según la hora local.
 
     ```javascript
-    const date = new Date();
-    console.log(date.setHours);
+    const date = new Date()
+    date.setHours(10, 15, 04)
+    console.log(date);
     ```
 
 22. **`Date.prototype.setMilliseconds()`**: Establece los milisegundos para una fecha especificada según la hora local.
 
     ```javascript
-    const date = new Date();
-    console.log(date.setMilliseconds);
+    const date = new Date()
+    date.setMilliseconds(20)
+    console.log(date.getMilliseconds());
     ```
 
 23. **`Date.prototype.setMinutes()`**: Establece los minutos para una fecha especificada según la hora local.
 
     ```javascript
-    const date = new Date();
-    console.log(date.setMinutes);
+    const date = new Date()
+    date.setMinutes(30)
+    console.log(date);
     ```
 
 24. **`Date.prototype.setMonth()`**: Establece el mes para una fecha especificada según la hora local.
 
     ```javascript
-    const date = new Date();
-    console.log(date.setMonth);
+    const date = new Date()
+    date.setMonth(3)
+    console.log(date);
     ```
 
 25. **`Date.prototype.setSeconds()`**: Establece los segundos para una fecha especificada según la hora local.
 
     ```javascript
-    const date = new Date();
-    console.log(date.setSeconds);
+    const date = new Date()
+    date.setSeconds(15)
+    console.log(date);
     ```
 
 26. **`Date.prototype.setTime()`**: Establece una fecha y hora según la hora universal coordinada (UTC) correspondiente al número de milisegundos especificado desde el 1 de enero de 1970 00:00:00 UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.setTime);
+    const date = new Date()
+    date.setTime(Date.UTC(2025, 2, 3, 5, 0, 0))
+    console.log(date);
     ```
 
 27. **`Date.prototype.setUTCDate()`**: Establece el día del mes para una fecha especificada según la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.setUTCDate);
+    const date = new Date()
+    date.setUTCDate(2)
+    console.log(date);
     ```
 
 28. **`Date.prototype.setUTCHours()`**: Establece la hora para una fecha especificada según la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.setUTCHours);
+    const date = new Date()
+    date.setUTCHours(20)
+    console.log(date);
     ```
 
 29. **`Date.prototype.setUTCMilliseconds()`**: Establece los milisegundos para una fecha especificada según la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.setUTCMilliseconds);
+    const date = new Date()
+    date.setUTCMilliseconds(14)
+    console.log(date);
     ```
 
 30. **`Date.prototype.setUTCMinutes()`**: Establece los minutos para una fecha especificada según la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.setUTCMinutes);
+    const date = new Date()
+    date.setUTCMinutes(25)
+    console.log(date);
     ```
 
 31. **`Date.prototype.setUTCMonth()`**: Establece el mes para una fecha especificada según la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.setUTCMonth);
+    const date = new Date()
+    date.setUTCMonth(2)
+    console.log(date);
     ```
 
 32. **`Date.prototype.setUTCSeconds()`**: Establece los segundos para una fecha especificada según la hora UTC.
 
     ```javascript
-    const date = new Date();
-    console.log(date.setUTCSeconds);
+    const date = new Date()
+    date.setUTCSeconds(42)
+    console.log(date);
     ```
 
 ## Métodos:
